@@ -29,6 +29,7 @@ namespace Subjects {
   cpp.setTeacher(cTeacher);
   react.setTeacher(reactTeacher);
   java.setTeacher(javaTeacher);
+  java.setTeacher(cTeacher)
 
   // Test Cpp subject
   console.log("C++");
