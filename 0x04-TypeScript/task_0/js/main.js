@@ -11,19 +11,7 @@ var student2 = {
     age: 22,
     location: "Los Angeles"
 };
-var student3 = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 20,
-    location: "New York"
-};
-var student4 = {
-    firstName: "Jane",
-    lastName: "Smith",
-    age: 22,
-    location: "Los Angeles"
-};
-var studentsList = [student1, student2, student3, student4];
+var studentsList = [student1, student2];
 var table = document.createElement("table");
 var headerRow = document.createElement("tr");
 var header1 = document.createElement("th");

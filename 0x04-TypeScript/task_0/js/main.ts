@@ -21,21 +21,8 @@ let student2: student = {
     location: "Los Angeles"
 };
 
-let student3: student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 20,
-    location: "New York"
-};
 
-let student4: student = {
-    firstName: "Jane",
-    lastName: "Smith",
-    age: 22,
-    location: "Los Angeles"
-};
-
-let studentsList : student[] = [student1, student2, student3, student4];
+let studentsList : student[] = [student1, student2];
 
 let table = document.createElement("table");
 let headerRow = document.createElement("tr");
