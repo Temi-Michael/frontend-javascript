@@ -13,7 +13,7 @@ namespace Subjects {
 
     public getAvailableTeacher(): string {
       // Check if a teacher is assigned AND if they have experienceTeachingReact
-      if (this.teacher?.experienceTeachingReact > 0) {
+      if (this.teacher.experienceTeachingReact > 0) {
         return `Available Teacher: ${this.teacher.firstName}`;
       }
       return "No available teacher";
