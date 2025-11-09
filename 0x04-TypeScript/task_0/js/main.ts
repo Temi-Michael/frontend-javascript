@@ -1,20 +1,20 @@
 let body = document.getElementById("main")
 
-interface student {
+interface Student {
     firstName: string;
     lastName: string;
     age: number;
     location: string;
 }
 
-let student1: student = {
+let student1: Student = {
     firstName: "John",
     lastName: "Doe",
     age: 20,
     location: "New York"
 };
 
-let student2: student = {
+let student2: Student = {
     firstName: "Jane",
     lastName: "Smith",
     age: 22,
@@ -22,7 +22,7 @@ let student2: student = {
 };
 
 
-let studentsList : student[] = [student1, student2];
+const studentsList : Student[] = [student1, student2];
 
 let table = document.createElement("table");
 let headerRow = document.createElement("tr");
